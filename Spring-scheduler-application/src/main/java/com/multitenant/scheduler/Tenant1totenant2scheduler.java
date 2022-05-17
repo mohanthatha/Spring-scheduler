@@ -15,7 +15,7 @@ public class Tenant1totenant2scheduler {
 	@Autowired
 	FeignServiceUtil feignServiceUtil;
 
-	@Scheduled(fixedRate = 10000)
+	@Scheduled(fixedRate = 600000)
 	public void executeSyncProcess() {
 		System.out.println("scheduler called");
 
